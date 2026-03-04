@@ -1,0 +1,64 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+  ogImageAlt?: string;
+}
+
+const {
+  title,
+  description,
+  ogImage = '/images/BANNER.webp',
+  ogImageAlt = 'Harmonia INside Banner',
+} = Astro.props;
+
+const siteUrl = 'https://harmoniainside.com';
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content="Harmonia INside" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="Harmonia INside" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={ogImageAlt} />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <div class="max-w-[1400px] mx-auto">
+      <slot />
+    </div>
+  </body>
+</html>

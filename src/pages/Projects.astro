@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProjectsApp from '../components/ProjectsApp.jsx';
+---
+
+<BaseLayout
+  title="Projects — Harmonia INside"
+  description="Browse all projects by Harmonia INside, including interior visualisations, exterior renders, and 3D wayfinding maps."
+>
+  <ProjectsApp client:load />
+</BaseLayout>

@@ -1,0 +1,362 @@
+{
+  "translation": {
+    "description": "Ciao! Sono Joonas Kirsipuu. Appassionato di 3D, Costruttore di Mondi e Designer.",
+    "title": "APPASSIONATO DI 3D, COSTRUTTORE DI MONDI E DESIGNER",
+    "banner_alt": "Banner di Joonas Kirsipuu",
+    "portfolio": "Questo è il mio portfolio artistico, dai un'occhiata!",
+    "nav": {
+      "digital": "DIGITALE",
+      "traditional": "TRADIZIONALE",
+      "worldbuilding": "COSTRUZIONE DEL MONDO",
+      "blog": "BLOG",
+      "about": "CHI SONO",
+      "contact": "CONTATTI"
+    },
+    "seo": {
+      "digital": {
+        "title": "Joonas Kirsipuu | Appassionato di 3D, Costruttore di Mondi e Designer",
+        "desc": "Galleria portfolio con opere d'arte digitale di Joonas Kirsipuu."
+      },
+      "traditional": {
+        "title": "Tradizionale | Joonas Kirsipuu",
+        "desc": "Disegni, dipinti e schizzi tradizionali di Joonas Kirsipuu."
+      },
+      "worldbuilding": {
+        "title": "Worldbuilding | Joonas Kirsipuu",
+        "desc": "Progetti di worldbuilding e concept art di Joonas Kirsipuu."
+      },
+      "blog": {
+        "title": "Blog | Joonas Kirsipuu",
+        "desc": "Blog personale e aggiornamenti di Joonas Kirsipuu."
+      },
+      "fractals": {
+        "title": "Frattali | Joonas Kirsipuu",
+        "desc": "Progetto di worldbuilding con frattali 3D di Joonas Kirsipuu."
+      },
+      "about": {
+        "title": "Chi Sono | Joonas Kirsipuu",
+        "desc": "Scopri di più su Joonas Kirsipuu, appassionato di 3D, worldbuilder e designer."
+      },
+      "genai": {
+        "title": "IA Generativa | Joonas Kirsipuu",
+        "desc": "Perché l'arte generativa sarà obsoleta secondo Joonas Kirsipuu."
+      },
+      "games": {
+        "title": "Giochi | Joonas Kirsipuu",
+        "desc": "Giochi preferiti di Joonas Kirsipuu."
+      },
+      "films": {
+        "title": "Film, Serie TV e Anime | Joonas Kirsipuu",
+        "desc": "Film, serie TV e anime preferiti di Joonas Kirsipuu."
+      }
+    },
+    "about_page": {
+      "profile_alt": "Joonas Kirsipuu",
+      "thats_me": "Sono io",
+      "intro1": "Per me, l'arte è un concetto piuttosto ampio. Probabilmente perché sono giovane e posso assorbire tutto: materiali, colori e tecnologie diverse. Tuttavia, tendo a propendere per i metodi artistici più nuovi, il più eccitante dei quali è il 3D. Per me, questa forma di espressione visiva offre la massima libertà e risultati sorprendenti.",
+      "intro2": "Ho un approccio piuttosto 'strano' alla generazione di idee: idee nuove ed eccitanti mi vengono in mente e rimangono lì per un bel po' di tempo prima di iniziare a formare qualcosa di più concreto. Non disegno né scrivo nulla da nessuna parte, ma penso intensamente e alla fine decido che è il momento di fare qualcosa. Questo può accadere spontaneamente o forzandomi. Il lavoro è solitamente lento, mi piace lasciarlo riposare per un paio di mesi o più e poi tornarci.",
+      "intro3": "Trovo idee in luoghi diversi, ma la fonte principale è ancora internet. È lì che c'è la maggior parte delle informazioni e dove culture, sottoculture e controculture si evolvono rapidamente. Mi interessano soprattutto i temi visivamente sorprendenti e l'architettura, ma sono anche interessato a culture diverse. Ultimamente, ho iniziato a guardare più da vicino diverse questioni politiche e geopolitiche, la psiche umana, i disturbi mentali e come questo dia origine a diverse sottoculture e/o controculture.",
+      "experience": "ESPERIENZA",
+      "jobs": {
+        "harmonia": {
+          "title": "Fondatore, CEO e Designer 3D | Harmonia INside OÜ",
+          "desc": "Guido progetti di visualizzazione 3D, specializzandomi in rendering e design architettonico di interni ed esterni ad alta fedeltà.",
+          "date": "Nov 2023 – Presente"
+        },
+        "tech3d": {
+          "title": "Designer 3D (a tempo parziale) | 3D Technologies R&D AS",
+          "desc": "Sviluppo progetti completi di mappe di orientamento 3D e 2D per strutture su larga scala, inclusi ospedali, centri commerciali ed edifici commerciali.",
+          "date": "Mar 2022 – Presente"
+        },
+        "freelance": {
+          "title": "Artista 3D Freelance | Polüwerk OÜ & Bluray OÜ",
+          "desc": "Fornito risorse di modellazione e visualizzazione 3D personalizzate per diverse esigenze dei clienti in molteplici settori.",
+          "date": "Feb 2019 – Feb 2023"
+        }
+      },
+      "education": "ISTRUZIONE",
+      "schools": {
+        "pallas": {
+          "title": "Laurea Triennale | Pallas University of Applied Sciences",
+          "desc": "Campo di studio: Scultura",
+          "date": "Set 2019 – Giu 2024"
+        },
+        "tartu": {
+          "title": "Istruzione Secondaria Professionale | Tartu Art School",
+          "desc": "Campo di studio: Modellazione 3D e Animazione",
+          "date": "Set 2015 – Feb 2019"
+        },
+        "reiniku": {
+          "title": "Istruzione di Base | Tartu Mart Reiniku School",
+          "date": "Set 2006 – Giu 2015"
+        }
+      },
+      "exhibitions": "MOSTRE",
+      "exhibs": {
+        "pallas": {
+          "title": "Mostra del Progetto Finale | Pallas Art Gallery",
+          "date": "Giu 2024 – Lug 2024"
+        }
+      }
+    },
+    "blog_page": {
+      "title": "I MIEI PENSIERI CASUALI",
+      "subtitle": "Questa pagina è per i miei pensieri su argomenti casuali ed elenca tutti i miei film, serie, giochi e anime preferiti, così potrai conoscermi meglio.",
+      "links": {
+        "genai": "Perché l'arte GenAI diventerà obsoleta - WIP",
+        "films": "I miei film, serie e anime preferiti",
+        "games": "I miei giochi preferiti"
+      }
+    },
+    "worldbuilding_page": {
+      "fractals_thumb_alt": "Miniatura Progetto Frattali",
+      "fractals": "PROGETTO FRATTALI",
+      "project3088": "PROGETTO 3088"
+    },
+    "fractals_page": {
+      "title": "PROGETTO FRATTALI",
+      "alt": "Progetto Frattali",
+      "desc1": "Questo progetto di worldbuilding è iniziato come tesi di laurea intitolata [LINK1]. Ho voluto immaginare uno scenario spaziale futuro in cui l'umanità, a causa del cambiamento climatico, è migrata nella mesosfera, vivendo su giganteschi oggetti scultorei fluttuanti. Le capsule all'interno di questi oggetti fungono da alloggi individuali, ispirati alle forme della natura. Oltre alle capsule, c'è anche un'area comune dove tutti possono socializzare. Il mio processo di progettazione ha comportato un'ampia ricerca, traendo ispirazione da varie fonti tra cui meraviglie architettoniche in Asia, letteratura di fantascienza e classici del cinema dagli anni '60 ai grandi blockbuster dell'era moderna.",
+      "desc2": "Puoi trovare la tesi completa [LINK2] in estone, e voglio ringraziare Merille Hommik per essere stata una mentore straordinaria durante questo progetto di laurea.",
+      "desc3": "Gli aggiornamenti su questo progetto sono lenti a causa del mio tempo occupato da altri progetti e cambiamenti di vita.",
+      "animation": "Animazione Frattale",
+      "link1_text": "\"Il Mio Spazio Futuro\"",
+      "link2_text": "qui"
+    },
+    "genai_page": {
+      "title": "Perché l'arte GenAI diventerà obsoleta - WIP",
+      "wip": "WIP"
+    },
+    "films_page": {
+      "title": "I MIEI FILM, SERIE E ANIME PREFERITI",
+      "films_title": "FILM",
+      "series_title": "SERIE",
+      "anime_title": "ANIME",
+      "imdb_link": "Se sei interessato, puoi controllare le mie valutazioni per film e serie <1>qui</1>. È lontano dall'essere completo, lo aggiorno periodicamente.",
+      "films": {
+        "br": { "title": "Blade Runner - 1982", "desc": " - Lo straordinario mondo di 'Ma gli androidi sognano pecore elettriche?' di Philip K. Dick creato su pellicola con dettagli fantastici." },
+        "br2049": { "title": "Blade Runner 2049 - 2017", "desc": " - Uno dei migliori sequel cinematografici mai realizzati. È distintamente Blade Runner, ma è abbastanza diverso nella sua tonalità e regia da reggersi in piedi da solo." },
+        "alien": { "title": "Alien - 1979", "desc": " - Mantiene incredibilmente bene i suoi elementi horror. Scenografia e atmosfera spettacolari." },
+        "space_odyssey": { "title": "2001: Odissea nello spazio - 1968", "desc": " - È così bello che ha convinto un certo gruppo di persone che la Terra è piatta. Non c'è altro da aggiungere." },
+        "dune": { "title": "Dune parte 1 & 2 - 2021/2024", "desc": " - Il libro 'infilmabile' catturato su pellicola da uno dei migliori registi del nostro tempo. CINEMA!" },
+        "lotr": { "title": "Trilogia de Il Signore degli Anelli - 2001/2002/2003", "desc": " - Lo standard d'oro del worldbuilding, trasformato in tre film da un gruppo di persone incredibilmente appassionate. È semplicemente magico." },
+        "arrival": { "title": "Arrival - 2016", "desc": " - Un'interpretazione fantastica del genere sci-fi. Ottima recitazione e regia." },
+        "whiplash": { "title": "Whiplash - 2014", "desc": " - Dimostra che non serve un grande budget per fare un film fantastico. La relazione corrosiva e contorta tra uno studente che desidera l'elogio del suo insegnante è davvero agghiacciante e colpisce nel segno." },
+        "joker": { "title": "Joker - 2019", "desc": " - Un'interpretazione molto diversa di un classico cattivo di Batman. In un'epoca di crisi della salute mentale - sia perché le persone sono sempre più sole, sia perché alcuni pensano che sia 'cool' - la rilevanza di Joker è destinata solo ad aumentare." },
+        "y1917": { "title": "1917 - 2019", "desc": " - Cinematografia spettacolare mascherata da film di guerra che è semplicemente brutale." },
+        "pirates": { "title": "Pirati dei Caraibi: La maledizione della prima luna - 2003", "desc": " - I pirati erano soliti essere personaggi da cartone animato e qualcosa con cui spaventare i bambini, ma non dopo questo film. È un gioiello assoluto che regge ancora incredibilmente bene visivamente, e Johnny Depp è semplicemente brillante." },
+        "oppenheimer": { "title": "Oppenheimer - 2023", "desc": " - Scritto come un film d'azione, ma sono solo alcuni ragazzi in una stanza che parlano e una grande esplosione a metà. Eppure è riuscito a tenermi con il fiato sospeso per tutta la durata. Ha anche un interessante andirivieni tra le riprese in bianco e nero e a colori - una dal punto di vista di Strauss e l'altra da quello di Oppenheimer, rispettivamente. Vorrei aver avuto la possibilità di vederlo in IMAX." }
+      },
+      "series": {
+        "bb": { "title": "Breaking Bad - 2008 - 2013", "desc": " - A parte un paio di episodi riempitivi, la sua capacità di fornire costantemente un voto di 8+/10 per una durata così lunga è impressionante." },
+        "got": { "title": "Game of Thrones - 2011 - 2019", "desc": " - Finché non guardi le ultime due stagioni, è una televisione solida con personaggi complessi e trame interessanti." },
+        "andor": { "title": "Andor - 2022- 2025", "desc": " - Narrativa sorprendentemente profonda per Star Wars. È anche piuttosto rilevante nel mondo di oggi." },
+        "mr_robot": { "title": "Mr. Robot - 2015 - 2019", "desc": " - La mia serie preferita in assoluto. Ogni colpo di scena è attentamente studiato. È ancora meglio a una seconda visione, specialmente la prima stagione." },
+        "chernobyl": { "title": "Chernobyl - 2019", "desc": " - Una delle migliori miniserie mai realizzate. Cattura abbastanza bene la condizione umana di vivere nell'Unione Sovietica." },
+        "house": { "title": "House M.D. - 2004 - 2012", "desc": " - Un dramma medico reso divertente da un dottore imperfetto, esilarante e arguto." },
+        "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Prime due stagioni stellari; la terza è deludente. Nel complesso, molto coinvolgente, divertente e cervellotico." },
+        "clarkson": { "title": "Clarkson's Farm - 2021 - ?", "desc": " - Un tizio che guidava auto per vivere ora guida trattori per vivere. Clarkson's Farm è esilarante, emozionante, educativo e importante." }
+      },
+      "anime": {
+        "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - L'anime che ha acceso il mio interesse per le auto. Un classico assoluto. Sogno ad occhi aperti di creare la mia battaglia di derapate animate. Spero un giorno di poter realizzare quel sogno." },
+        "edgerunners": { "title": "Cyberpunk: Edgerunners - 2022 - ?", "desc": " - Se ti piace Cyberpunk 2077, adorerai questo anime. Mi è rimasto impresso per molto tempo." }
+      }
+    },
+    "games_page": {
+      "title": "ELENCO DEI MIEI GIOCHI PREFERITI",
+      "singleplayer_title": "SINGLEPLAYER",
+      "multiplayer_title": "MULTIPLAYER",
+      "singleplayer": {
+        "cp2077": { "title": "Cyberpunk 2077 - 2020/2023", "desc": " - Uno dei mondi di videogiochi più belli di sempre. Tutto è radicato nella realtà e tutto ha uno scopo. Il combattimento è incredibilmente divertente e vario. Una colonna sonora fantastica. La narrazione utilizza eccezionalmente bene il worldbuilding, e non è solo una storia di punk che combattono il sistema o di un mercenario che scala la malavita. La missione principale di Cyberpunk 2077 è molto più filosofica, attingendo pesantemente dall'esistenzialismo e dal postumanesimo. Al suo centro, è una storia sull'identità, che intreccia quel tema in ogni parte del gioco. Anche la lunghezza della missione principale è perfetta. È nitida e diretta - tutto essenziale, niente riempitivi. Le missioni hanno alcune decisioni che si ripercuotono, anche se meno di The Witcher 3, ma anche il valore della produzione è più alto. I personaggi sono eccellenti. - 9/10" },
+        "witcher3": { "title": "The Witcher 3: Wild Hunt - 2015/2016", "desc": " - Questo gioco ha mostrato a tutti (e a Bethesda) che i vasti giochi open-world possono avere un'abbondanza di storie complesse e personaggi ben scritti. Il combattimento è di gran lunga l'anello più debole, ma non è affatto male, e alla fine diventa divertente. Sia le missioni principali che quelle secondarie offrono una discreta quantità di decisioni, con conseguenze che appaiono più avanti. Gwent era così bello che CDPR ha finito per creare un gioco separato solo per quello. La colonna sonora è semplicemente adorabile. - 8/10" },
+        "mario_galaxy": { "title": "Super Mario Galaxy 1 & 2- 2007/2010", "desc": " - WIP" },
+        "ori": { "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020", "desc": " - WIP" },
+        "dead_space": { "title": "Dead Space Remake - 2023", "desc": " - WIP" },
+        "minecraft": { "title": "Minecraft - 2009", "desc": " - WIP" }
+      },
+      "multiplayer": {
+        "lol": { "title": "League of Legends - 2009", "desc": " - WIP" },
+        "overwatch": { "title": "Overwatch - 2016", "desc": " - WIP" },
+        "warframe": { "title": "Warframe - 2013", "desc": " - WIP" }
+      }
+    },
+    "footer": {
+      "title": "GALLERIA D'ARTE DI JOONAS KIRSIPUU",
+      "copyright": "© {{year}} Tutti i diritti riservati."
+    },
+    "images": {
+      "cerebrum": {
+        "text": "Cerebrum",
+        "subtext": "Scansioni MRT, Blender, Octane Render, Affinity [2026]",
+        "alt": "Render 3D intitolato Cerebrum di Joonas Kirsipuu"
+      },
+      "fractals001": {
+        "text": "Frattali 001",
+        "subtext": "Mandelbulb 3D, Photoshop [2024]",
+        "alt": "Composizione artistica frattale 3D intitolata Frattali 001 di Joonas Kirsipuu"
+      },
+      "capsuleNightview": {
+        "text": "Vista Notturna Capsula",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Rendering della vista notturna di un interno di capsula futuristica di Joonas Kirsipuu"
+      },
+      "wireframe001": {
+        "text": "Modello Wireframe 001",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Rendering wireframe 3D di una struttura architettonica di Joonas Kirsipuu"
+      },
+      "bathroom001": {
+        "text": "Bagno 001",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Visualizzazione 3D di un interno di bagno futuristico di Joonas Kirsipuu"
+      },
+      "commonRoom": {
+        "text": "Sala comune",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Visualizzazione 3D di un'area comune di Joonas Kirsipuu"
+      },
+      "capsuleView001": {
+        "text": "Vista capsula 001",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Vista grandangolare 3D dell'interno di una capsula di Joonas Kirsipuu"
+      },
+      "yunoChan": {
+        "text": "ゆのちゃん",
+        "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
+        "alt": "Modello di personaggio 3D di Yuno-chan di Joonas Kirsipuu"
+      },
+      "porsche": {
+        "text": "Porsche 911 RWB",
+        "subtext": "Blender [2018]",
+        "alt": "Rendering 3D di una Porsche 911 RWB di Joonas Kirsipuu"
+      }
+    },
+    "traditional": {
+      "thinkingOfYou": {
+        "text": "Pensando a te",
+        "subtext": "Matite su carta [2022]",
+        "alt": "Ritratto a matita intitolato Pensando a te di Joonas Kirsipuu"
+      },
+      "shy": {
+        "text": "Timida",
+        "subtext": "Matite su carta [2022]",
+        "alt": "Ritratto a matita intitolato Timida di Joonas Kirsipuu"
+      },
+      "closeYourEyes": {
+        "text": "Chiudi gli occhi",
+        "subtext": "Matite su carta [2022]",
+        "alt": "Ritratto a matita intitolato Chiudi gli occhi di Joonas Kirsipuu"
+      },
+      "girl001": {
+        "text": "Ragazza 001",
+        "subtext": "Matite su carta [2022]",
+        "alt": "Disegno a matita di una ragazza di Joonas Kirsipuu"
+      },
+      "theOpposite": {
+        "text": "L'opposto",
+        "subtext": "Acrilico su cartone finlandese [2021]",
+        "alt": "Dipinto acrilico su cartone intitolato L'opposto di Joonas Kirsipuu"
+      },
+      "abstract001": {
+        "text": "Astratto 001",
+        "subtext": "Acrilico su cartone finlandese [2021]",
+        "alt": "Dipinto acrilico astratto su cartone di Joonas Kirsipuu"
+      },
+      "act001": {
+        "text": "Atto 001",
+        "subtext": "Acrilico su cartone finlandese [2021]",
+        "alt": "Dipinto acrilico di una figura intitolato Atto 001 di Joonas Kirsipuu"
+      },
+      "linework": {
+        "text": "Disegno al tratto",
+        "subtext": "Matite su carta [2017]",
+        "alt": "Disegno linework a matita di Joonas Kirsipuu"
+      },
+      "sittingWithColours": {
+        "text": "Seduto con i colori",
+        "subtext": "Guazzo su cartone [2017]",
+        "alt": "Dipinto a guazzo intitolato Seduto con i colori di Joonas Kirsipuu"
+      },
+      "watercolourWithRainwater": {
+        "text": "Acquerello con acqua piovana",
+        "subtext": "Acquerello su carta [2017]",
+        "alt": "Dipinto ad acquerello creato usando acqua piovana di Joonas Kirsipuu"
+      },
+      "guitarGlove": {
+        "text": "Guanto Chitarra",
+        "subtext": "Guazzo su cartone [2016]",
+        "alt": "Dipinto a guazzo intitolato Guanto Chitarra di Joonas Kirsipuu"
+      },
+      "straightenYourTie": {
+        "text": "Raddrizza la cravatta",
+        "subtext": "Guazzo su cartone [2016]",
+        "alt": "Dipinto a guazzo intitolato Raddrizza la cravatta di Joonas Kirsipuu"
+      }
+    },
+    "fractals": {
+      "hallway": {
+        "text": "Corridoio",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Render 3D di un corridoio di Joonas Kirsipuu"
+      },
+      "capsuleView002": {
+        "text": "Vista capsula 002",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Render 3D di un interno di capsula di Joonas Kirsipuu"
+      },
+      "capsuleView003": {
+        "text": "Vista capsula 003",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Vista dettagliata dello spazio abitativo della capsula di Joonas Kirsipuu"
+      },
+      "capsuleView004": {
+        "text": "Vista capsula 004",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Vista prospettica dell'interno della capsula di Joonas Kirsipuu"
+      },
+      "capsuleView005": {
+        "text": "Vista capsula 005",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Vista dell'interno della capsula che mostra i posti a sedere di Joonas Kirsipuu"
+      },
+      "fractals002": {
+        "text": "Frattali 002",
+        "subtext": "Mandelbulb 3D, Photoshop [2024]",
+        "alt": "Composizione artistica frattale 3D intitolata Frattali 002 di Joonas Kirsipuu"
+      },
+      "fractals003": {
+        "text": "Frattali 003",
+        "subtext": "Mandelbulb 3D, Photoshop [2024]",
+        "alt": "Vista esterna della struttura della capsula di Joonas Kirsipuu"
+      },
+      "commonRoom": {
+        "text": "Sala comune",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Visualizzazione 3D di un'area comune di Joonas Kirsipuu"
+      },
+      "bathroom002": {
+        "text": "Bagno 002",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Visualizzazione 3D di un interno di bagno futuristico di Joonas Kirsipuu"
+      },
+      "wireframe002": {
+        "text": "Wireframe 002",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Rendering wireframe 3D di una struttura architettonica di Joonas Kirsipuu"
+      },
+      "animation": {
+        "text": "Animazione Frattali",
+        "subtext": "YouTube",
+        "alt": "Animazione Frattali di Joonas Kirsipuu"
+      }
+    },
+    "contact_modal": {
+      "title": "Contattami",
+      "default_mail": "App Mail Predefinita",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "yahoo": "Yahoo",
+      "close": "Chiudi"
+    }
+  }
+}

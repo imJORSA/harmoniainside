@@ -1,0 +1,362 @@
+{
+  "translation": {
+    "description": "Hei! Olen Joonas Kirsipuu. 3D-entusiast, maailmalooja ja disainer.",
+    "title": "3D-ENTUSIAST, MAAILMALOOJA JA DISAINER",
+    "banner_alt": "Joonas Kirsipuu bänner",
+    "portfolio": "See on minu kunstiportfoolio, vaata ringi!",
+    "nav": {
+      "digital": "DIGITAALNE",
+      "traditional": "TRADITSIOONILINE",
+      "worldbuilding": "MAAILMALOOME",
+      "blog": "BLOGI",
+      "about": "MINUST",
+      "contact": "KONTAKT"
+    },
+    "seo": {
+      "digital": {
+        "title": "Joonas Kirsipuu | 3D-entusiast, maailmalooja ja disainer",
+        "desc": "Joonas Kirsipuu digitaalsete kunstiteoste portfoolio galerii."
+      },
+      "traditional": {
+        "title": "Traditsiooniline | Joonas Kirsipuu",
+        "desc": "Joonas Kirsipuu traditsioonilised joonistused, maalid ja visandid."
+      },
+      "worldbuilding": {
+        "title": "Maailmaloome | Joonas Kirsipuu",
+        "desc": "Joonas Kirsipuu maailmaloome projektid ja kontseptkunst."
+      },
+      "blog": {
+        "title": "Blogi | Joonas Kirsipuu",
+        "desc": "Joonas Kirsipuu isiklik blogi ja uuendused."
+      },
+      "fractals": {
+        "title": "Fraktaalid | Joonas Kirsipuu",
+        "desc": "Joonas Kirsipuu 3D fraktaalide maailmaloome projekt."
+      },
+      "about": {
+        "title": "Minust | Joonas Kirsipuu",
+        "desc": "Loe lähemalt Joonas Kirsipuu kohta, kes on 3D-entusiast, maailmalooja ja disainer."
+      },
+      "genai": {
+        "title": "Generatiivne AI | Joonas Kirsipuu",
+        "desc": "Miks GenAI kunst vananeb, Joonas Kirsipuu."
+      },
+      "games": {
+        "title": "Mängud | Joonas Kirsipuu",
+        "desc": "Joonas Kirsipuu lemmikmängud."
+      },
+      "films": {
+        "title": "Filmid, sarjad ja anime | Joonas Kirsipuu",
+        "desc": "Joonas Kirsipuu lemmikfilmid, -sarjad ja -anime."
+      }
+    },
+    "about_page": {
+      "profile_alt": "Joonas Kirsipuu",
+      "thats_me": "See olen mina",
+      "intro1": "Minu jaoks on kunst üsna lai mõiste. Ilmselt seetõttu, et olen noor ja suudan kõike endasse imeda - erinevaid materjale, värve ja tehnoloogiaid. Siiski kaldun rohkem uuemate kunstimeetodite poole, millest kõige põnevam on 3D. Minu jaoks pakub see visuaalse väljenduse vorm kõige rohkem vabadust ja üllatavaid tulemusi.",
+      "intro2": "Mul on ideede genereerimiseks üsna 'veider' lähenemine - uued ja põnevad ideed hüppavad pähe ja püsivad seal üsna kaua, enne kui hakkavad vormuma millekski konkreetsemaks. Ma ei joonista ega kirjuta midagi kuhugi, vaid mõtlen intensiivselt ja otsustan lõpuks, et nüüd on aeg midagi ära teha. See võib juhtuda spontaanselt või ennast sundides. Töö on tavaliselt aeglane, mulle meeldib lasta sellel paar kuud või kauem settida ja siis uuesti tagasi tulla.",
+      "intro3": "Leian ideid erinevatest kohtadest, kuid peamine allikas on endiselt internet. Seal on kõige rohkem teavet ja seal arenevad kultuurid, subkultuurid ja vastukultuurid kiiresti. Mulle meeldivad kõige rohkem visuaalselt silmatorkavad teemad ja arhitektuur, kuid olen huvitatud ka erinevatest kultuuridest. Viimasel ajal olen hakanud lähemalt uurima erinevaid poliitilisi ja geopoliitilisi küsimusi, inimpsüühikat, vaimseid häireid ja seda, kuidas see tekitab erinevaid subkultuure ja/või vastukultuure.",
+      "experience": "KOGEMUS",
+      "jobs": {
+        "harmonia": {
+          "title": "Asutaja, tegevjuht ja 3D-disainer | Harmonia INside OÜ",
+          "desc": "Juhin 3D-visualiseerimise projekte, spetsialiseerudes kõrutruudusega sise- ja välisarhitektuursele renderdamisele ja disainile.",
+          "date": "Nov 2023 – Praegu"
+        },
+        "tech3d": {
+          "title": "3D-disainer (osaline tööaeg) | 3D Technologies R&D AS",
+          "desc": "Arendan terviklikke 3D ja 2D teejuhiste kaardidisaine suurtele rajatistele, sealhulgas haiglatele, kaubanduskeskustele ja ärihoonetele.",
+          "date": "Märts 2022 – Praegu"
+        },
+        "freelance": {
+          "title": "Vabakutseline 3D-kunstnik | Polüwerk OÜ & Bluray OÜ",
+          "desc": "Loonud kohandatud 3D-mudeleid ja visualiseerimisvarasid erinevate klientide vajadustele mitmes tööstusharus.",
+          "date": "Veebr 2019 – Veebr 2023"
+        }
+      },
+      "education": "HARIDUS",
+      "schools": {
+        "pallas": {
+          "title": "Bakalaureusekraad | Kõrgem Kunstikool Pallas",
+          "desc": "Eriala: Skulptuur",
+          "date": "Sept 2019 – Juuni 2024"
+        },
+        "tartu": {
+          "title": "Kutsekeskharidus | Tartu Kunstikool",
+          "desc": "Eriala: 3D-modelleerimine ja animatsioon",
+          "date": "Sept 2015 – Veebr 2019"
+        },
+        "reiniku": {
+          "title": "Põhiharidus | Tartu Mart Reiniku Kool",
+          "date": "Sept 2006 – Juuni 2015"
+        }
+      },
+      "exhibitions": "NÄITUSED",
+      "exhibs": {
+        "pallas": {
+          "title": "Lõputööde näitus | Pallase galerii",
+          "date": "Juuni 2024 – Juuli 2024"
+        }
+      }
+    },
+    "blog_page": {
+      "title": "MINU JUHUSLIKUD MÕTTED",
+      "subtitle": "See leht on minu mõtete jaoks juhuslikel teemadel ja loetleb kõik minu lemmikfilmid, -sarjad, -mängud ja -anime, et saaksite mind paremini tundma õppida.",
+      "links": {
+        "genai": "Miks GenAI kunst vananeb - WIP",
+        "films": "Minu lemmikfilmid, -sarjad ja -anime",
+        "games": "Minu lemmikmängud"
+      }
+    },
+    "worldbuilding_page": {
+      "fractals_thumb_alt": "Projekti Fraktaalid pisipilt",
+      "fractals": "PROJEKT FRAKTAALID",
+      "project3088": "PROJEKT 3088"
+    },
+    "fractals_page": {
+      "title": "PROJEKT FRAKTAALID",
+      "alt": "Projekt Fraktaalid",
+      "desc1": "See maailmaloome projekt sai alguse bakalaureusetöö projektina pealkirjaga [LINK1]. Tahtsin ette kujutada tuleviku kosmosestsenaariumi, kus inimkond on kliimamuutuste tõttu rännanud mesosfääri, elades hiiglaslikel hõljuvatel skulpturaalsetel objektidel. Nende objektide sees olevad kapslid toimivad individuaalsete eluruumidena, mis on inspireeritud loodusvormidest. Lisaks kapslitele on olemas ka ühisala, kus kõik saavad suhelda. Minu disainiprotsess hõlmas ulatuslikku uurimistööd, ammutades inspiratsiooni erinevatest allikatest, sealhulgas Aasia arhitektuurilistest imedest, ulmekirjandusest ja filmiklassikast alates 60ndatest kuni tänapäevaste suurte kassahittideni.",
+      "desc2": "Täispika lõputöö leiate [LINK2] eesti keeles ja soovin tänada Merille Hommikut, kes oli selle bakalaureuseprojekti vältel suurepärane juhendaja.",
+      "desc3": "Selle projekti uuendused on aeglased, kuna minu aega võtavad muud projektid ja elumuutused.",
+      "animation": "Fraktaali animatsioon",
+      "link1_text": "\"Minu tuleviku ruum\"",
+      "link2_text": "siit"
+    },
+    "genai_page": {
+      "title": "Miks GenAI kunst vananeb - WIP",
+      "wip": "WIP"
+    },
+    "films_page": {
+      "title": "MINU LEMMIKFILMID, -SARJAD JA -ANIME",
+      "films_title": "FILMID",
+      "series_title": "SARJAD",
+      "anime_title": "ANIME",
+      "imdb_link": "Kui olete huvitatud, saate vaadata minu filmide ja sarjade hinnanguid <1>siit</1>. See on kaugel täielikkusest, uuendan seda perioodiliselt.",
+      "films": {
+        "br": { "title": "Blade Runner - 1982", "desc": " - Philip K. Dicki \"Kas androidid unistavad elektrilammastest?\" vapustav maailm, mis on loodud filmilindile fantastilise detailsusega." },
+        "br2049": { "title": "Blade Runner 2049 - 2017", "desc": " - Üks parimaid filmikunsti järgesid, mis eales tehtud. See on selgelt Blade Runner, kuid oma tonaalsuselt ja suunalt piisavalt erinev, et seista iseseisvalt." },
+        "alien": { "title": "Tulnukas - 1979", "desc": " - Peab oma õuduselementides uskumatult hästi vastu. Suurejooneline lavakujundus ja atmosfäär." },
+        "space_odyssey": { "title": "2001: Kosmoseodüsseia - 1968", "desc": " - See on nii hea, et veenis teatud gruppi inimesi, et Maa on lame. Rohkem pole vaja öelda." },
+        "dune": { "title": "Düün osa 1 & 2 - 2021/2024", "desc": " - Filmimatuks peetud raamat, mille on filmilindile jäädvustanud üks meie aja parimaid režissööre. KINO!" },
+        "lotr": { "title": "Sõrmuste isanda triloogia - 2001/2002/2003", "desc": " - Maailmaloome kuldstandard, mille on kolmeks filmiks teinud uskumatult kirglik inimeste grupp. See on lihtsalt maagiline." },
+        "arrival": { "title": "Saabumine - 2016", "desc": " - Fantastiline lähenemine ulmežanrile. Suurepärane näitlejatöö ja režii." },
+        "whiplash": { "title": "Whiplash - 2014", "desc": " - Tõestab, et suurepärase filmi tegemiseks pole vaja suurt eelarvet. Söövitav ja keeruline suhe õpilase vahel, kes igatseb oma õpetaja kiitust, on tõeliselt judinaid tekitav ja läheb hinge." },
+        "joker": { "title": "Jokker - 2019", "desc": " - Väga teistsugune lähenemine klassikalisele Batmani kurikaelale. Vaimse tervise kriisi ajal – kas seetõttu, et inimesed on üha üksildasemad või seetõttu, et mõned arvavad, et see on 'lahe' – Jokkeri asjakohasus ainult kasvab." },
+        "y1917": { "title": "1917 - 2019", "desc": " - Suurejooneline operaatoritöö, mis on maskeeritud sõjafilmiks, mis on lihtsalt jõhker." },
+        "pirates": { "title": "Kariibi mere piraadid: Musta Pärli needus - 2003", "desc": " - Piraadid olid varem multikalikud ja midagi, millega lapsi hirmutada, kuid mitte pärast seda filmi. See on absoluutne pärl, mis peab visuaalselt endiselt uskumatult hästi vastu, ja Johnny Depp on lihtsalt geniaalne." },
+        "oppenheimer": { "title": "Oppenheimer - 2023", "desc": " - Kirjutatud nagu märulifilm, kuid see on vaid mõned mehed toas rääkimas ja suur plahvatus poole peal. Ja ometi suutis see mind terve aja tooli serval hoida. Sellel on ka huvitav edasi-tagasi liikumine mustvalgete ja värviliste kaadrite vahel – vastavalt Straussi ja Oppenheimeri vaatenurgast. Soovin, et oleksin saanud võimaluse seda IMAXis näha." }
+      },
+      "series": {
+        "bb": { "title": "Breaking Bad - 2008 - 2013", "desc": " - Paar täiteepisoodi kõrvale jättes on selle võime pakkuda nii pika aja jooksul järjepidevalt 8+/10 muljetavaldav." },
+        "got": { "title": "Troonide mäng - 2011 - 2019", "desc": " - Kuni te ei vaata kahte viimast hooaega, on see soliidne televisioon keerukate tegelaste ja huvitavate süžeeliinidega." },
+        "andor": { "title": "Andor - 2022- 2025", "desc": " - Tähesõdade kohta üllatavalt sügav narratiiv. See on ka tänapäeva maailmas üsna asjakohane." },
+        "mr_robot": { "title": "Mr. Robot - 2015 - 2019", "desc": " - Minu isiklik lemmiksari. Iga pööre ja keerdkäik on hoolikalt läbi mõeldud. See on kordusvaatamisel veelgi parem, eriti 1. hooaeg." },
+        "chernobyl": { "title": "Tšernobõl - 2019", "desc": " - Üks parimaid minisarju, mis eales tehtud. Tabab Nõukogude Liidus elamise inimlikku seisundit üsna hästi." },
+        "house": { "title": "Dr. House - 2004 - 2012", "desc": " - Meditsiinidraama, mille teeb lõbusaks vigane, naljakas ja teravmeelne arst." },
+        "aib": { "title": "Alice in Borderland - 2020 - 2025", "desc": " - Suurepärased kaks esimest hooaega; kolmas jääb lahjaks. Üldiselt väga kaasahaarav, lõbus ja meeltmööda." },
+        "clarkson": { "title": "Clarksoni farm - 2021 - ?", "desc": " - Mees, kes teenis elatist autodega sõites, teenib nüüd elatist traktoriga sõites. Clarksoni farm on naljakas, emotsionaalne, hariv ja oluline." }
+      },
+      "anime": {
+        "initial_d": { "title": "Initial D - 1998 - 2014", "desc": " - Anime, mis tekitas minus huvi autode vastu. Absoluutne klassika. Unistan oma animeeritud autode driftilahingu tegemisest. Loodetavasti saan kunagi selle unistuse teoks teha." },
+        "edgerunners": { "title": "Cyberpunk: Edgerunners - 2022 - ?", "desc": " - Kui teile meeldib Cyberpunk 2077, siis armastate seda animet. See jäi minuga pikaks ajaks." }
+      }
+    },
+    "games_page": {
+      "title": "MINU LEMMIKMÄNGUDE NIMEKIRI",
+      "singleplayer_title": "ÜKSIKMÄNGIJA",
+      "multiplayer_title": "MITMEMÄNGIJA",
+      "singleplayer": {
+        "cp2077": { "title": "Cyberpunk 2077 - 2020/2023", "desc": " - Üks lahedamaid videomängumaailmu üldse. Kõik on juurdunud reaalsuses ja kõigel on eesmärk. Võitlus on uskumatult lõbus ja mitmekesine. Vägev heliriba. Narratiiv kasutab maailmaloomet erakordselt hästi ja see pole lihtsalt lugu punkaritest, kes võitlevad süsteemiga, või palgamõrvarist, kes ronib kriminaalse allilma redelil. Cyberpunk 2077 põhiülesanne on palju filosoofilisem, ammutades palju eksistentsialismist ja posthumanismist. Oma olemuselt on see lugu identiteedist, põimides selle teema läbi mängu iga osa. Põhiülesande pikkus on samuti üsna täpne. See on terav ja asjakohane — kõik on oluline, ei mingit täidet. Ülesannetel on mõningane otsuste tegemine, mis lainetab väljapoole, kuigi vähem kui The Witcher 3-s, kuid tootmisväärtus on ka kõrgem. Tegelased on suurepärased. - 9/10" },
+        "witcher3": { "title": "The Witcher 3: Wild Hunt - 2015/2016", "desc": " - See mäng näitas kõigile (ja Bethesdale), et suurtel avatud maailma mängudel võib olla rohkesti keerukaid lugusid ja hästi kirjutatud tegelasi. Võitlus on vaieldamatult nõrgim lüli, kuid see pole sugugi halb ja muutub lõpuks lõbusaks. Nii põhi- kui ka kõrvalülesanded pakuvad korralikku hulka otsuste tegemist, mille tagajärjed ilmnevad hiljem. Gwent oli nii hea, et CDPR tegi lõpuks eraldi mängu just selle jaoks. Heliriba on lihtsalt armas. - 8/10" },
+        "mario_galaxy": { "title": "Super Mario Galaxy 1 & 2- 2007/2010", "desc": " - WIP" },
+        "ori": { "title": "Ori and the Blind Forest, Ori and the Will of the Wisps - 2015/2020", "desc": " - WIP" },
+        "dead_space": { "title": "Dead Space Remake - 2023", "desc": " - WIP" },
+        "minecraft": { "title": "Minecraft - 2009", "desc": " - WIP" }
+      },
+      "multiplayer": {
+        "lol": { "title": "League of Legends - 2009", "desc": " - WIP" },
+        "overwatch": { "title": "Overwatch - 2016", "desc": " - WIP" },
+        "warframe": { "title": "Warframe - 2013", "desc": " - WIP" }
+      }
+    },
+    "footer": {
+      "title": "JOONAS KIRSIPUU KUNSTIGALERII",
+      "copyright": "© {{year}} Kõik õigused kaitstud."
+    },
+    "images": {
+      "cerebrum": {
+        "text": "Suuraju",
+        "subtext": "MRT skaneeringud, Blender, Octane Render, Affinity [2026]",
+        "alt": "3D renderdus pealkirjaga Suuraju, autor Joonas Kirsipuu"
+      },
+      "fractals001": {
+        "text": "Fraktaalid 001",
+        "subtext": "Mandelbulb 3D, Photoshop [2024]",
+        "alt": "3D fraktaalkunsti kompositsioon pealkirjaga Fraktaalid 001, autor Joonas Kirsipuu"
+      },
+      "capsuleNightview": {
+        "text": "Kapsli öövaade",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Öövaate renderdus futuristlikust kapsli sisemusest, autor Joonas Kirsipuu"
+      },
+      "wireframe001": {
+        "text": "Traatvõrestik 001",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D traatvõrestiku renderdus arhitektuursest struktuurist, autor Joonas Kirsipuu"
+      },
+      "bathroom001": {
+        "text": "Vannituba 001",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D visualiseering futuristlikust vannitoa sisemusest, autor Joonas Kirsipuu"
+      },
+      "commonRoom": {
+        "text": "Ühisruum",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D visualiseering ühisruumi alast, autor Joonas Kirsipuu"
+      },
+      "capsuleView001": {
+        "text": "Kapsli vaade 001",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Lainurk 3D vaade kapsli sisemusest, autor Joonas Kirsipuu"
+      },
+      "yunoChan": {
+        "text": "Yuno-chan",
+        "subtext": "Blender, Substance Painter/Designer, Character Creator 4, Marvelous Designer [2023]",
+        "alt": "3D tegelaskuju mudel Yuno-chanist, autor Joonas Kirsipuu"
+      },
+      "porsche": {
+        "text": "Porsche 911 RWB",
+        "subtext": "Blender [2018]",
+        "alt": "3D renderdus Porsche 911 RWB-st, autor Joonas Kirsipuu"
+      }
+    },
+    "traditional": {
+      "thinkingOfYou": {
+        "text": "Mõeldes sinule",
+        "subtext": "Pliiatsid paberil [2022]",
+        "alt": "Pliiatsijoonistus portree pealkirjaga Mõeldes sinule, autor Joonas Kirsipuu"
+      },
+      "shy": {
+        "text": "Häbelik",
+        "subtext": "Pliiatsid paberil [2022]",
+        "alt": "Pliiatsijoonistus portree pealkirjaga Häbelik, autor Joonas Kirsipuu"
+      },
+      "closeYourEyes": {
+        "text": "Sule silmad",
+        "subtext": "Pliiatsid paberil [2022]",
+        "alt": "Pliiatsijoonistus portree pealkirjaga Sule silmad, autor Joonas Kirsipuu"
+      },
+      "girl001": {
+        "text": "Tüdruk 001",
+        "subtext": "Pliiatsid paberil [2022]",
+        "alt": "Pliiatsijoonistus tüdrukust, autor Joonas Kirsipuu"
+      },
+      "theOpposite": {
+        "text": "Vastand",
+        "subtext": "Akrüül Soome papil [2021]",
+        "alt": "Akrüülmaal papil pealkirjaga Vastand, autor Joonas Kirsipuu"
+      },
+      "abstract001": {
+        "text": "Abstraktne 001",
+        "subtext": "Akrüül Soome papil [2021]",
+        "alt": "Abstraktne akrüülmaal papil, autor Joonas Kirsipuu"
+      },
+      "act001": {
+        "text": "Akt 001",
+        "subtext": "Akrüül Soome papil [2021]",
+        "alt": "Akrüülmaal figuurist pealkirjaga Akt 001, autor Joonas Kirsipuu"
+      },
+      "linework": {
+        "text": "Joonekunst",
+        "subtext": "Pliiatsid paberil [2017]",
+        "alt": "Pliiatsi joonekunst joonistus, autor Joonas Kirsipuu"
+      },
+      "sittingWithColours": {
+        "text": "Istumas värvidega",
+        "subtext": "Guašš papil [2017]",
+        "alt": "Guaššmaal pealkirjaga Istumas värvidega, autor Joonas Kirsipuu"
+      },
+      "watercolourWithRainwater": {
+        "text": "Akvarell vihmaveega",
+        "subtext": "Akvarell paberil [2017]",
+        "alt": "Akvarellmaal loodud kasutades vihmavett, autor Joonas Kirsipuu"
+      },
+      "guitarGlove": {
+        "text": "Kitarrikinnas",
+        "subtext": "Guašš papil [2016]",
+        "alt": "Guaššmaal pealkirjaga Kitarrikinnas, autor Joonas Kirsipuu"
+      },
+      "straightenYourTie": {
+        "text": "Kohenda oma lipsu",
+        "subtext": "Guašš papil [2016]",
+        "alt": "Guaššmaal pealkirjaga Kohenda oma lipsu, autor Joonas Kirsipuu"
+      }
+    },
+    "fractals": {
+      "hallway": {
+        "text": "Esik",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D renderdus esikust, autor Joonas Kirsipuu"
+      },
+      "capsuleView002": {
+        "text": "Kapsli vaade 002",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D renderdus kapsli sisemusest, autor Joonas Kirsipuu"
+      },
+      "capsuleView003": {
+        "text": "Kapsli vaade 003",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Detailne vaade kapsli eluruumist, autor Joonas Kirsipuu"
+      },
+      "capsuleView004": {
+        "text": "Kapsli vaade 004",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Perspektiivvaade kapsli sisemusest, autor Joonas Kirsipuu"
+      },
+      "capsuleView005": {
+        "text": "Kapsli vaade 005",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "Vaade kapsli sisemusest näidates istumisala, autor Joonas Kirsipuu"
+      },
+      "fractals002": {
+        "text": "Fraktaalid 002",
+        "subtext": "Mandelbulb 3D, Photoshop [2024]",
+        "alt": "3D fraktaalkunsti kompositsioon pealkirjaga Fraktaalid 002, autor Joonas Kirsipuu"
+      },
+      "fractals003": {
+        "text": "Fraktaalid 003",
+        "subtext": "Mandelbulb 3D, Photoshop [2024]",
+        "alt": "Välisvaade kapsli struktuurist, autor Joonas Kirsipuu"
+      },
+      "commonRoom": {
+        "text": "Ühisruum",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D visualiseering ühisruumi alast, autor Joonas Kirsipuu"
+      },
+      "bathroom002": {
+        "text": "Vannituba 002",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D visualiseering futuristlikust vannitoa sisemusest, autor Joonas Kirsipuu"
+      },
+      "wireframe002": {
+        "text": "Traatvõrestik 002",
+        "subtext": "Blender, Photoshop [2024]",
+        "alt": "3D traatvõrestiku renderdus arhitektuursest struktuurist, autor Joonas Kirsipuu"
+      },
+      "animation": {
+        "text": "Fraktaali animatsioon",
+        "subtext": "YouTube",
+        "alt": "Fraktaali animatsioon, autor Joonas Kirsipuu"
+      }
+    },
+    "contact_modal": {
+      "title": "Võta minuga ühendust",
+      "default_mail": "Vaikimisi meilirakendus",
+      "gmail": "Gmail",
+      "outlook": "Outlook",
+      "yahoo": "Yahoo",
+      "close": "Sulge"
+    }
+  }
+}
