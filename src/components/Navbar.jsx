@@ -20,7 +20,7 @@ const Navbar = () => {
       {/* TOP ROW — title */}
       <div className='flex items-center justify-between gap-4'>
         <h1 className='cursor-default font-bold text-[7px] min-[400px]:text-xs sm:text-lg lg:text-xl tracking-[0.1em]'>
-          HARMONIA INSIDE
+          3D DESIGN STUDIO
         </h1>
       </div>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className='font-black w-fit px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]'
+                className='font-black w-fit px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 hover:bg-amber-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]'
               >
                 {link.name}
               </a>
@@ -45,8 +45,8 @@ const Navbar = () => {
               <a key={link.name} href={link.path}
                 className={`font-black w-fit px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 ${
                   pathname === link.path
-                    ? 'bg-sky-300 text-slate-900 shadow-[0_0_10px_rgba(125,211,252,0.5)]'
-                    : 'hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]'
+                    ? 'bg-amber-300 text-slate-900 shadow-[0_0_10px_rgba(125,211,252,0.5)]'
+                    : 'hover:bg-amber-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]'
                 }`}
               >
                 {link.name}
@@ -57,7 +57,7 @@ const Navbar = () => {
             <button
               key={link.name}
               onClick={link.action}
-              className='font-bold w-fit px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 hover:bg-sky-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]'
+              className='font-bold w-fit px-0 py-1 whitespace-nowrap transition-all duration-300 ease-in-out hover:scale-105 hover:bg-amber-300 hover:text-slate-900 hover:shadow-[0_0_10px_rgba(125,211,252,0.5)]'
             >
               {link.name}
             </button>
@@ -77,16 +77,16 @@ const Navbar = () => {
           >
             <h2 className="text-xl font-bold text-center">CONTACT</h2>
             <div className="flex flex-col gap-2">
-              <a href={`mailto:${email}`} className="p-3 bg-slate-700 hover:bg-sky-300 hover:text-slate-900 transition-colors text-center font-semibold">
+              <a href={`mailto:${email}`} className="p-3 bg-slate-700 hover:bg-amber-300 hover:text-slate-900 transition-colors text-center font-semibold">
                 Open Default Mail
               </a>
-              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${email}`} target="_blank" rel="noreferrer" className="p-3 bg-slate-700 hover:bg-sky-300 hover:text-slate-900 transition-colors text-center font-semibold">
+              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${email}`} target="_blank" rel="noreferrer" className="p-3 bg-slate-700 hover:bg-amber-300 hover:text-slate-900 transition-colors text-center font-semibold">
                 Open Gmail
               </a>
-              <a href={`https://outlook.office.com/mail/deeplink/compose?to=${email}`} target="_blank" rel="noreferrer" className="p-3 bg-slate-700 hover:bg-sky-300 hover:text-slate-900 transition-colors text-center font-semibold">
+              <a href={`https://outlook.office.com/mail/deeplink/compose?to=${email}`} target="_blank" rel="noreferrer" className="p-3 bg-slate-700 hover:bg-amber-300 hover:text-slate-900 transition-colors text-center font-semibold">
                 Open Outlook
               </a>
-              <a href={`https://compose.mail.yahoo.com/?to=${email}`} target="_blank" rel="noreferrer" className="p-3 bg-slate-700 hover:bg-sky-300 hover:text-slate-900 transition-colors text-center font-semibold">
+              <a href={`https://compose.mail.yahoo.com/?to=${email}`} target="_blank" rel="noreferrer" className="p-3 bg-slate-700 hover:bg-amber-300 hover:text-slate-900 transition-colors text-center font-semibold">
                 Open Yahoo Mail
               </a>
             </div>

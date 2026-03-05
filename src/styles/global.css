@@ -62,7 +62,7 @@ body:has(.overlay) {
 .overlay-arrows_left svg:hover,
 .overlay-arrows_right svg:hover {
   opacity: 0.5;
-  color: #7dd3fc;
+  color: #ffd230;
 }
 
 .overlay span {
@@ -110,7 +110,7 @@ body:has(.overlay) {
   width: 80px;
   height: 80px;
   border: 2px solid transparent;
-  border-top: 2px solid #7dd3fc;
+  border-top: 2px solid #fee685;
   border-radius: 50%;
   animation: spin 1.5s linear infinite;
   z-index: 1000;
@@ -121,7 +121,7 @@ body:has(.overlay) {
   position: absolute;
   top: 5px; left: 5px; right: 5px; bottom: 5px;
   border: 2px solid transparent;
-  border-top: 2px solid #38bdf8;
+  border-top: 2px solid #ffba00;
   border-radius: 50%;
   animation: spin-simple 2s linear infinite reverse;
 }
@@ -131,7 +131,7 @@ body:has(.overlay) {
   position: absolute;
   top: 15px; left: 15px; right: 15px; bottom: 15px;
   border: 2px solid transparent;
-  border-top: 2px solid #0ea5e9;
+  border-top: 2px solid #e17100;
   border-radius: 50%;
   animation: spin-simple 1s linear infinite;
 }

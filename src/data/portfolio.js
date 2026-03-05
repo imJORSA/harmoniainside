@@ -101,8 +101,8 @@ const data = [
   {
     text: 'Kasteheina Street Terraced House Render 5',
     subtext: 'Interior Visualization',
-    thumbnail: '/images/projects/kasteheina/render_5_thumbnail.webp',
-    full: '/images/projects/kasteheina/render_5.webp',
+    thumbnail: '/images/projects/kasteheina/render_05_thumbnail.webp',
+    full: '/images/projects/kasteheina/render_05.webp',
     width: 800,
     height: 450,
     alt: 'Kasteheina Street Terraced House interior render',

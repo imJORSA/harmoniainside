@@ -4,15 +4,7 @@ import Navbar from './Navbar'
 
 const HeaderPicture = '/images/BANNER.webp'
 
-/**
- * Reusable project detail page.
- * Props:
- *   title       {string}   — project name
- *   subtitle    {string}   — category / type
- *   description {string}   — body text
- *   images      {Array}    — [{ src, thumbnail, alt, width, height }]
- */
-const ProjectPage = ({ title, subtitle, description, images = [] }) => {
+const ProjectPage = ({ title, subtitle, description, images = [], maxColumns = 3 }) => {
   const [clickedImg, setClickedImg] = useState(null)
   const [currentIndex, setCurrentIndex] = useState(null)
   const [loading, setLoading] = useState(false)
@@ -86,25 +78,18 @@ const ProjectPage = ({ title, subtitle, description, images = [] }) => {
 
       {/* BODY */}
       <div className='w-full flex-1 bg-white py-10 px-4 xl:px-0'>
-        {/* Back button */}
-        <a
-          href='/Projects'
-          className='inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-slate-500 hover:text-sky-500 transition-colors duration-300 mb-8 tracking-widest'
-        >
-          <FaArrowLeft /> BACK TO PROJECTS
-        </a>
 
         {/* Title block */}
         <div className='mb-10'>
-          <p className='text-xs sm:text-sm text-blue-500 font-bold tracking-widest uppercase mb-1'>{subtitle}</p>
-          <h1 className='text-2xl sm:text-4xl xl:text-5xl font-bold text-black tracking-widest uppercase'>{title}</h1>
+          <p className='text-xs sm:text-sm text-black font-bold tracking-widest uppercase mb-1'>{subtitle}</p>
+          <h1 className='text-2xl sm:text-4xl xl:text-5xl font-bold text-amber-500 tracking-widest uppercase'>{title}</h1>
           {description && (
             <p className='mt-6 text-sm sm:text-base leading-7 text-slate-700 max-w-3xl'>{description}</p>
           )}
         </div>
 
         {/* Image grid */}
-        <div className='columns-1 sm:columns-2 xl:columns-3 gap-4'>
+        <div className={`columns-1 sm:columns-2 ${maxColumns >= 3 ? 'xl:columns-3' : ''} gap-4`}>
           {images.map((item, index) => (
             <div
               key={index}
@@ -122,6 +107,14 @@ const ProjectPage = ({ title, subtitle, description, images = [] }) => {
             </div>
           ))}
         </div>
+
+        {/* Back button */}
+        <a
+          href='/Projects'
+          className='inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-slate-500 hover:text-amber-300 transition-colors duration-300 mt-12 tracking-widest'
+        >
+          <FaArrowLeft /> BACK TO PROJECTS
+        </a>
       </div>
 
       {/* LIGHTBOX */}
@@ -149,7 +142,7 @@ const ProjectPage = ({ title, subtitle, description, images = [] }) => {
               style={{ display: loading ? 'none' : 'block' }}
             />
           </div>
-          <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-sky-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
+          <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-amber-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
             <h2 className='text-white text-xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
               {images[currentIndex]?.alt}
             </h2>

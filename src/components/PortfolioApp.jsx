@@ -13,7 +13,9 @@ export default function PortfolioApp() {
         headerImage={HeaderPicture}
         isMasonry={true}
         showText={false}
-      />
+      >
+        <h1 className='text-3xl sm:text-5xl font-bold text-amber-500 mb-5 tracking-widest px-4 xl:px-0 pt-8'>PORTFOLIO</h1>
+      </GalleryPage>
       <Footer />
     </>
   )
