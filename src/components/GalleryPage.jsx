@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
-import Navbar from './Navbar'
+import OptimizedImage from './OptimizedImage'
+import '../i18n.js'
 
 const GAP = 16
 
@@ -68,10 +70,11 @@ const MasonryGrid = ({ data, renderItem }) => {
               ref={el => itemRefs.current[index] = el}
               style={pos ? {
                 position: 'absolute',
-                left: pos.x,
-                top: pos.y,
+                top: 0,
+                left: 0,
                 width: pos.width,
-                transition: 'top 0.3s ease, left 0.3s ease'
+                transform: `translate3d(${pos.x}px, ${pos.y}px, 0)`,
+                transition: 'transform 0.3s ease'
               } : {
                 position: 'absolute',
                 opacity: 0,
@@ -88,7 +91,6 @@ const MasonryGrid = ({ data, renderItem }) => {
 }
 
 const GalleryPage = ({
-  headerImage,
   name,
   data,
   children,
@@ -96,10 +98,10 @@ const GalleryPage = ({
   showText = true,
   imageObjectFit = 'object-fill'
 }) => {
+  const { t } = useTranslation()
   const [clickedImg, setClickedImg] = useState(null)
   const [currentIndex, setCurrentIndex] = useState(null)
   const [loading, setLoading] = useState(false)
-  const preloaded = useRef(false)
   const [touchStart, setTouchStart] = useState(null)
   const [touchEnd, setTouchEnd] = useState(null)
   const minSwipeDistance = 50
@@ -140,13 +142,14 @@ const GalleryPage = ({
   }
 
   useEffect(() => {
-    if (clickedImg && !loading && !preloaded.current) {
-      data.forEach((item) => {
-        if (item.full && !item.isLink) { const img = new Image(); img.src = item.full }
-      })
-      preloaded.current = true
+    if (currentIndex !== null && data) {
+      const nextIndex = (currentIndex + 1) % data.length
+      const prevIndex = (currentIndex - 1 + data.length) % data.length
+      
+      if (data[nextIndex]?.full) { new Image().src = data[nextIndex].full }
+      if (data[prevIndex]?.full) { new Image().src = data[prevIndex].full }
     }
-  }, [clickedImg, loading, data])
+  }, [currentIndex, data])
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -169,16 +172,16 @@ const GalleryPage = ({
       return (
         <div className='images relative group cursor-pointer'>
           <a href={item.href} target="_blank" rel="noreferrer">
-            <img
+            <OptimizedImage
               src={item.thumbnail}
-              alt={item.alt}
+              alt={t(item.alt)}
               className={`w-full ${imageObjectFit} grayscale`}
               onLoad={onLoad}
               onError={onLoad}
             />
             <div className='absolute inset-0 flex justify-center items-center'>
-              <h1 className='text-lg sm:text-2xl font-bold text-white group-hover:text-amber-300 transition-colors duration-300 drop-shadow-lg text-center'>
-                {item.text}
+              <h1 className='text-lg sm:text-2xl font-bold text-white group-hover:text-orange-300 transition-colors duration-300 drop-shadow-lg text-center'>
+                {t(item.text)}
               </h1>
             </div>
           </a>
@@ -187,18 +190,18 @@ const GalleryPage = ({
     }
     return (
       <div className='images group cursor-pointer overflow-hidden'>
-        <img
+        <OptimizedImage
           src={item.thumbnail}
-          alt={item.alt}
-          className={`w-full ${imageObjectFit} grayscale group-hover:grayscale-0 transition-all duration-500 block`}
+          alt={t(item.alt)}
+          className={`w-full ${imageObjectFit} grayscale group-hover:grayscale-0 transition duration-500 block`}
           onClick={() => handleClick(item, index)}
           onLoad={onLoad}
           onError={(e) => { e.target.style.display = 'none'; onLoad() }}
         />
         {showText && (
           <>
-            <h2 className='pt-1 text-xs sm:text-base xl:text-lg font-bold pointer-events-none text-amber-950'>{item.text}</h2>
-            <h2 className='text-[8px] sm:text-xs font-thin pointer-events-none text-amber-950'>{item.subtext}</h2>
+            <h2 className='pt-1 text-xs sm:text-base xl:text-lg font-bold pointer-events-none text-orange-950'>{t(item.text)}</h2>
+            <h2 className='text-[8px] sm:text-xs font-thin pointer-events-none text-orange-950'>{t(item.subtext)}</h2>
           </>
         )}
       </div>
@@ -207,15 +210,7 @@ const GalleryPage = ({
 
   return (
     <>
-      <div name={name} className='w-full min-h-screen bg-white'>
-        {headerImage && (
-          <div className='relative flex h-full m-auto bg-slate-900'>
-            <img src={headerImage} loading="eager" className='h-full w-full object-cover' alt='Harmonia INside' />
-          </div>
-        )}
-
-        <Navbar />
-
+      <div name={name} className='w-full bg-white'>
         {children}
 
         {isMasonry ? (
@@ -245,24 +240,28 @@ const GalleryPage = ({
               {!loading && (
                 <>
                   <span onClick={() => setClickedImg(null)}><FaTimes /></span>
-                  <div className="overlay-arrows_left" onClick={handleRotationLeft}><FaChevronLeft /></div>
-                  <div className="overlay-arrows_right" onClick={handleRotationRight}><FaChevronRight /></div>
                 </>
               )}
               {loading && <div className="scifi-loader"></div>}
-              <img
+              <OptimizedImage
                 src={clickedImg}
-                alt={data[currentIndex] ? data[currentIndex].alt : 'Gallery Image'}
+                alt={data[currentIndex] ? t(data[currentIndex].alt) : 'Gallery Image'}
                 onLoad={() => setLoading(false)}
                 style={{ display: loading ? 'none' : 'block' }}
               />
+            {!loading && (
+              <div className="overlay-nav">
+                <div className="overlay-arrows_left" onClick={handleRotationLeft}><FaChevronLeft /></div>
+                <div className="overlay-arrows_right" onClick={handleRotationRight}><FaChevronRight /></div>
+              </div>
+            )}
             </div>
-            <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-amber-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
+            <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-orange-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
               <h2 className='text-white text-xl md:text-2xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
-                {data[currentIndex] && data[currentIndex].text}
+                {data[currentIndex] && t(data[currentIndex].text)}
               </h2>
               <p className='text-white text-sm md:text-base font-light drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
-                {data[currentIndex] && data[currentIndex].subtext}
+                {data[currentIndex] && t(data[currentIndex].subtext)}
               </p>
             </div>
           </div>

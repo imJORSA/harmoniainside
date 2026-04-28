@@ -1,52 +1,31 @@
-import Navbar from './Navbar.jsx'
-import Footer from './Footer.jsx'
-
-const HeaderPicture = '/images/BANNER.webp'
+import { useTranslation } from 'react-i18next'
+import OptimizedImage from './OptimizedImage.jsx'
+import '../i18n.js'
 
 const services = [
   {
-    title: 'INTERIOR VISUALIZATION',
-    description: 'Photorealistic 3D rendering and design for residential and commercial spaces.',
+    key: 'interior',
     image: '/images/projects/lai56/render_01_thumbnail.webp',
-    alt: 'Lai Street Apartment 5',
+    alt: 'projects.lai56.alt',
     imageLeft: false,
   },
   {
-    title: '3D DIGITAL SOLUTIONS & WAYFINDING',
-    description: 'Interactive 3D environments and smart navigation systems for large-scale facilities.',
-    image: '/images/projects/galeria/render_01_thumbnail.webp',
-    alt: 'Galeria Metropolia 3D wayfinding map',
-    imageLeft: true,
-  },
-  {
-    title: 'ARCHITECTURAL VISUALIZATION',
-    description: 'High-quality exterior renders showing massing, materials, and context for residential and commercial developments.',
+    key: 'architectural',
     image: '/images/projects/kasteheina/render_01_thumbnail.webp',
-    alt: 'Kasteheina Street Terraced House exterior render',
-    imageLeft: false,
-  },
-  {
-    title: '2D DIGITAL SOLUTIONS & WAYFINDING',
-    description: 'Interactive 2D environments and smart navigation systems for large-scale facilities.',
-    image: '/images/projects/vilnius/render_01_thumbnail.webp',
-    alt: 'Vilnius Airport 3D map',
+    alt: 'projects.kasteheina.alt',
     imageLeft: true,
   },
 ]
 
 export default function ServicesApp() {
-  return (
-    <div name='Services' className='w-full min-h-screen bg-white flex flex-col'>
-      {/* BANNER */}
-      <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full w-full object-cover' alt='Harmonia INside banner' />
-      </div>
+  const { t } = useTranslation()
 
-      <Navbar />
+  return (
+    <div name='Services' className='w-full bg-white'>
 
       {/* BODY */}
       <div className='w-full flex-1 bg-white py-8 px-4 xl:px-0'>
-        <h1 className='text-3xl sm:text-5xl font-bold text-amber-500 mb-5 tracking-widest'>SERVICES</h1>
+        <h1 className='text-3xl sm:text-5xl font-bold text-orange-500 mb-5 tracking-widest'>{t('nav.services')}</h1>
         {services.map((service, index) => (
           <div
             key={index}
@@ -54,30 +33,28 @@ export default function ServicesApp() {
           >
             {/* IMAGE */}
             <div className='w-full md:w-1/2 overflow-hidden'>
-              <img
+              <OptimizedImage
                 src={service.image}
-                alt={service.alt}
+                alt={t(service.alt)}
                 loading={index === 0 ? 'eager' : 'lazy'}
-                className='w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 min-h-[250px]'
+                className='w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500 min-h-[250px]'
               />
             </div>
 
             {/* TEXT — left-aligned on mobile, centered on md+ */}
             <div className='w-full md:w-1/2 flex flex-col justify-center items-start md:items-center pt-4 pb-8 md:py-10 bg-white'>
               <div className='w-full md:w-auto md:px-16'>
-                <h2 className='text-lg sm:text-2xl xl:text-3xl font-bold text-amber-500 tracking-widest mb-1 leading-tight'>
-                  {service.title}
+                <h2 className='text-lg sm:text-2xl xl:text-3xl font-bold text-orange-500 tracking-widest mb-1 leading-tight'>
+                  {t(`services.${service.key}.title`)}
                 </h2>
                 <p className='text-xs sm:text-sm xl:text-base tracking-widest text-slate-600 leading-relaxed uppercase'>
-                  {service.description}
+                  {t(`services.${service.key}.description`)}
                 </p>
               </div>
             </div>
           </div>
         ))}
       </div>
-
-      <Footer />
     </div>
   )
 }

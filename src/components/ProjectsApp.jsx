@@ -1,12 +1,13 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
+import { useTranslation } from 'react-i18next'
 import data from '../data/projects.js'
-import Navbar from './Navbar.jsx'
-import Footer from './Footer.jsx'
+import OptimizedImage from './OptimizedImage.jsx'
+import '../i18n.js'
 
-const HeaderPicture = '/images/BANNER.webp'
 const GAP = 24
 
 const MasonryGrid = ({ data }) => {
+  const { t } = useTranslation()
   const containerRef = useRef(null)
   const [positions, setPositions] = useState([])
   const [containerHeight, setContainerHeight] = useState(0)
@@ -61,10 +62,11 @@ const MasonryGrid = ({ data }) => {
             ref={el => itemRefs.current[index] = el}
             style={pos ? {
               position: 'absolute',
-              left: pos.x,
-              top: pos.y,
+              top: 0,
+              left: 0,
               width: pos.width,
-              transition: 'top 0.3s ease, left 0.3s ease'
+              transform: `translate3d(${pos.x}px, ${pos.y}px, 0)`,
+              transition: 'transform 0.3s ease'
             } : {
               position: 'absolute',
               opacity: 0,
@@ -73,17 +75,17 @@ const MasonryGrid = ({ data }) => {
           >
             <a href={item.href} className='group block overflow-hidden'>
               <div className='relative w-full overflow-hidden'>
-                <img
+                <OptimizedImage
                   src={item.thumbnail}
                   alt={item.alt}
                   loading={index < 4 ? 'eager' : 'lazy'}
-                  className='w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-500'
+                  className='w-full h-auto object-cover grayscale group-hover:grayscale-0 transition duration-500'
                   onLoad={onImageLoad}
                   onError={onImageLoad}
                 />
               </div>
               <h2 className='mt-2 mb-4 text-[10px] sm:text-sm font-bold text-black tracking-widest uppercase'>
-                {item.text}
+                {t(item.text)}
               </h2>
             </a>
           </div>
@@ -94,22 +96,15 @@ const MasonryGrid = ({ data }) => {
 }
 
 export default function ProjectsApp() {
+  const { t } = useTranslation()
+
   return (
-    <div name='Projects' className='w-full min-h-screen bg-white flex flex-col'>
-      {/* BANNER */}
-      <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full w-full object-cover' alt='Harmonia INside banner' />
-      </div>
-
-      <Navbar />
-
+    <div name='Projects' className='w-full bg-white'>
       {/* BODY */}
       <div className='w-full flex-1 bg-white py-8 px-4 xl:px-0'>
-        <h1 className='text-3xl sm:text-5xl font-bold text-amber-500 mb-5 tracking-widest'>PROJECTS</h1>
+        <h1 className='text-3xl sm:text-5xl font-bold text-orange-500 mb-5 tracking-widest'>{t('nav.projects')}</h1>
         <MasonryGrid data={data} />
       </div>
-
-      <Footer />
     </div>
   )
 }

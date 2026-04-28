@@ -5,7 +5,7 @@ import ProjectsApp from '../components/ProjectsApp.jsx';
 
 <BaseLayout
   title="Harmonia INside | Projects"
-  description="Browse all projects by Harmonia INside, including interior visualisations, exterior renders, and 3D wayfinding maps."
+  description="Browse all projects by Harmonia INside, including interior visualisations, exterior renders, and 3D & 2D wayfinding maps."
 >
-  <ProjectsApp client:load />
+  <ProjectsApp client:only="react" />
 </BaseLayout>

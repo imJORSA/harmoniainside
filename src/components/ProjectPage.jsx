@@ -1,14 +1,14 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import { FaTimes, FaChevronLeft, FaChevronRight, FaArrowLeft } from 'react-icons/fa'
-import Navbar from './Navbar'
-
-const HeaderPicture = '/images/BANNER.webp'
+import OptimizedImage from './OptimizedImage'
+import '../i18n.js'
 
 const ProjectPage = ({ title, subtitle, description, images = [], maxColumns = 3 }) => {
+  const { t } = useTranslation()
   const [clickedImg, setClickedImg] = useState(null)
   const [currentIndex, setCurrentIndex] = useState(null)
   const [loading, setLoading] = useState(false)
-  const preloaded = useRef(false)
   const [touchStart, setTouchStart] = useState(null)
   const [touchEnd, setTouchEnd] = useState(null)
   const minSwipeDistance = 50
@@ -45,11 +45,14 @@ const ProjectPage = ({ title, subtitle, description, images = [], maxColumns = 3
   }
 
   useEffect(() => {
-    if (clickedImg && !loading && !preloaded.current) {
-      images.forEach((item) => { const img = new Image(); img.src = item.src })
-      preloaded.current = true
+    if (currentIndex !== null && images.length > 0) {
+      const nextIndex = (currentIndex + 1) % images.length
+      const prevIndex = (currentIndex - 1 + images.length) % images.length
+      
+      new Image().src = images[nextIndex].src
+      new Image().src = images[prevIndex].src
     }
-  }, [clickedImg, loading, images])
+  }, [currentIndex, images])
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -68,23 +71,17 @@ const ProjectPage = ({ title, subtitle, description, images = [], maxColumns = 3
   }, [clickedImg])
 
   return (
-    <div className='w-full min-h-screen bg-white flex flex-col'>
-      {/* BANNER */}
-      <div className='relative flex h-full m-auto bg-slate-900'>
-        <img src={HeaderPicture} loading="eager" className='h-full w-full object-cover' alt='Harmonia INside banner' />
-      </div>
-
-      <Navbar />
+    <div className='w-full bg-white'>
 
       {/* BODY */}
       <div className='w-full flex-1 bg-white py-10 px-4 xl:px-0'>
 
         {/* Title block */}
         <div className='mb-10'>
-          <p className='text-xs sm:text-sm text-black font-bold tracking-widest uppercase mb-1'>{subtitle}</p>
-          <h1 className='text-2xl sm:text-4xl xl:text-5xl font-bold text-amber-500 tracking-widest uppercase'>{title}</h1>
+          <p className='text-xs sm:text-sm text-black font-bold tracking-widest uppercase mb-1'>{t(subtitle)}</p>
+          <h1 className='text-2xl sm:text-4xl xl:text-5xl font-bold text-orange-500 tracking-widest uppercase'>{t(title)}</h1>
           {description && (
-            <p className='mt-6 text-sm sm:text-base leading-7 text-slate-700 max-w-3xl'>{description}</p>
+            <p className='mt-6 text-sm sm:text-base leading-7 text-slate-700 max-w-3xl'>{t(description)}</p>
           )}
         </div>
 
@@ -96,13 +93,13 @@ const ProjectPage = ({ title, subtitle, description, images = [], maxColumns = 3
               className='break-inside-avoid mb-4 group cursor-pointer overflow-hidden'
               onClick={() => handleClick(item, index)}
             >
-              <img
+              <OptimizedImage
                 src={item.thumbnail || item.src}
-                alt={item.alt}
+                alt={t(item.alt)}
                 width={item.width}
                 height={item.height}
                 loading={index < 3 ? 'eager' : 'lazy'}
-                className='w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-500'
+                className='w-full h-auto object-cover grayscale group-hover:grayscale-0 transition duration-500'
               />
             </div>
           ))}
@@ -111,9 +108,9 @@ const ProjectPage = ({ title, subtitle, description, images = [], maxColumns = 3
         {/* Back button */}
         <a
           href='/Projects'
-          className='inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-slate-500 hover:text-amber-300 transition-colors duration-300 mt-12 tracking-widest'
+          className='inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-slate-500 hover:text-orange-300 transition-colors duration-300 mt-12 tracking-widest'
         >
-          <FaArrowLeft /> BACK TO PROJECTS
+          <FaArrowLeft /> {t('nav.projects')}
         </a>
       </div>
 
@@ -130,21 +127,25 @@ const ProjectPage = ({ title, subtitle, description, images = [], maxColumns = 3
             {!loading && (
               <>
                 <span onClick={() => setClickedImg(null)}><FaTimes /></span>
-                <div className="overlay-arrows_left" onClick={handleRotationLeft}><FaChevronLeft /></div>
-                <div className="overlay-arrows_right" onClick={handleRotationRight}><FaChevronRight /></div>
               </>
             )}
             {loading && <div className="scifi-loader"></div>}
-            <img
+            <OptimizedImage
               src={clickedImg}
-              alt={images[currentIndex]?.alt || 'Project image'}
+              alt={t(images[currentIndex]?.alt) || 'Project image'}
               onLoad={() => setLoading(false)}
               style={{ display: loading ? 'none' : 'block' }}
             />
+            {!loading && (
+              <div className="overlay-nav">
+                <div className="overlay-arrows_left" onClick={handleRotationLeft}><FaChevronLeft /></div>
+                <div className="overlay-arrows_right" onClick={handleRotationRight}><FaChevronRight /></div>
+              </div>
+            )}
           </div>
-          <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-amber-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
+          <div className='absolute bottom-0 left-0 w-full text-center p-4 bg-gradient-to-t from-orange-900 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300'>
             <h2 className='text-white text-xl font-bold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>
-              {images[currentIndex]?.alt}
+              {t(images[currentIndex]?.alt)}
             </h2>
           </div>
         </div>
