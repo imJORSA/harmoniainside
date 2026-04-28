@@ -15,8 +15,8 @@ if (!i18n.isInitialized) {
       resources: { en, et, it, ja },
       fallbackLng: 'en',
       detection: {
-        order: ['sessionStorage', 'localStorage', 'navigator'],
-        caches: ['sessionStorage', 'localStorage'],
+        order: ['sessionStorage', 'navigator'],
+        caches: ['sessionStorage'],
         lookupLocalStorage: 'i18nextLng',
         lookupSessionStorage: 'i18nextLng',
       },
