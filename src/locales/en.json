@@ -71,6 +71,12 @@
         "subtitle": "2D Digital Solutions & Wayfinding",
         "description": "We created interactive 2D maps for several Norwegian shopping centers, making it easy to find shops at CC Strandtorget as well as Scala centers in Stortorvet, Rykkinn, and Trekanten. These projects were born from a close collaboration with 3D Wayfinder and Easy Touch & LED.",
         "alt": "Norway's Scala 2D Wayfinding Maps"
+      },
+      "andreexterior": {
+        "title": "Chez Andre Exterior Cafe",
+        "subtitle": "Exterior Visualization",
+        "description": "I was commissioned by one of Tartu’s leading chefs to redesign his café’s exterior. The challenge was to balance the town’s historic aesthetic with a fresh, unique, and cozy atmosphere. Navigating new spatial regulations, I developed a custom bench solution that follows the building's facade, maximizing seating while maintaining a sleek, inviting look.",
+        "alt": "Chez Andre Exterior Cafe"
       }
     },
     "services": {
@@ -84,6 +90,11 @@
       }
     },
     "portfolio": {
+    "andreexterior": {
+        "text": "Chez Andre Exterior Cafe",
+        "subtext": "Exterior Visualization",
+        "alt": "Chez Andre Exterior Cafe"
+      },
       "lai56_6": {
         "text": "Lai Street Apartment 6",
         "subtext": "Interior Visualization",

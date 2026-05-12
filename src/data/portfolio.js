@@ -1,5 +1,23 @@
 const data = [
   {
+    text: 'portfolio.andreexterior.text',
+    subtext: 'portfolio.andreexterior.subtext',
+    thumbnail: '/images/projects/chez_andre_exterior/render_01_thumbnail.webp',
+    full: '/images/projects/chez_andre_exterior/render_01.webp',
+    width: 800,
+    height: 450,
+    alt: 'portfolio.andreexterior.alt',
+  },
+  {
+    text: 'portfolio.andreexterior.text',
+    subtext: 'portfolio.andreexterior.subtext',
+    thumbnail: '/images/projects/chez_andre_exterior/render_04_thumbnail.webp',
+    full: '/images/projects/chez_andre_exterior/render_04.webp',
+    width: 800,
+    height: 450,
+    alt: 'portfolio.andreexterior.alt',
+  },
+  {
     text: 'portfolio.lai56_6.text',
     subtext: 'portfolio.lai56_6.subtext',
     thumbnail: '/images/projects/lai56/render_02_thumbnail.webp',

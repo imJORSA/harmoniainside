@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AstriApp from '../../components/projects/AndreExteriorApp.jsx';
+---
+
+<BaseLayout
+  title="Harmonia INside | Chez Andre Exterior Cafe"
+  description="Interactive 3D wayfinding maps for Astri Group's retail properties."
+>
+  <AstriApp client:only="react" />
+</BaseLayout>

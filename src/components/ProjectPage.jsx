@@ -86,11 +86,11 @@ const ProjectPage = ({ title, subtitle, description, images = [], maxColumns = 3
         </div>
 
         {/* Image grid */}
-        <div className={`columns-1 sm:columns-2 ${maxColumns >= 3 ? 'xl:columns-3' : ''} gap-4`}>
+        <div className={`grid grid-cols-1 sm:grid-cols-2 ${maxColumns >= 3 ? 'lg:grid-cols-3' : ''} gap-4`}>
           {images.map((item, index) => (
             <div
               key={index}
-              className='break-inside-avoid mb-4 group cursor-pointer overflow-hidden'
+              className='group cursor-pointer overflow-hidden'
               onClick={() => handleClick(item, index)}
             >
               <OptimizedImage

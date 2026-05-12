@@ -71,6 +71,12 @@
         "subtitle": "Soluzioni digitali 2D e wayfinding",
         "description": "Abbiamo creato mappe 2D interattive per diversi centri commerciali in Norvegia, facilitando la ricerca dei negozi sia presso CC Strandtorget che nei centri Scala di Stortorvet, Rykkinn e Trekanten. I progetti sono stati realizzati in stretta collaborazione con 3D Wayfinder ed Easy Touch & LED.",
         "alt": "Mappe 2D Scala Norvegia"
+      },
+      "andreexterior": {
+        "title": "Caffè all'aperto Chez André",
+        "subtitle": "Visualizzazione esterna",
+        "description": "Uno dei migliori chef di Tartu mi ha incaricato di riprogettare l'esterno del suo locale. La sfida consisteva nel bilanciare l'estetica storica della città con un'atmosfera fresca, unica e accogliente. Per far fronte alle nuove normative sugli spazi, ho sviluppato una soluzione con una panchina continua che segue la facciata dell'edificio, massimizzando i posti a sedere e mantenendo un look elegante e invitante.",
+        "alt": "Caffè all'aperto Chez André"
       }
     },
     "services": {
@@ -84,6 +90,11 @@
       }
     },
     "portfolio": {
+    "andreexterior": {
+        "text": "Caffè all'aperto Chez André",
+        "subtext": "Visualizzazione esterna",
+        "alt": "Caffè all'aperto Chez André"
+      },
       "lai56_6": {
         "text": "Appartamento Lai Street 6",
         "subtext": "Visualizzazione interni",

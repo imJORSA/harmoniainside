@@ -71,6 +71,12 @@
         "subtitle": "2D digitaallahendused ja viitamine",
         "description": "Lõime interaktiivsed 2D-kaardid mitmele Norra kaubanduskeskusele, tehes poodide leidmise lihtsaks nii CC Strandtorgetis kui ka Scala keskustes Stortorvetis, Rykkinnis ja Trekantenis. Projektid sündisid tihedas koostöös 3D Wayfinderi ning Easy Touch & LEDiga.",
         "alt": "Norra Scala 2D viitamiskaardid"
+      },
+      "andreexterior": {
+        "title": "Chez Andre Välikohvik",
+        "subtitle": "Välisvisualisatsioon",
+        "description": "Üks Tartu tippkokkadest usaldas mulle oma kohviku välisilme uue lahenduse loomise. Minu eesmärk oli leida tasakaal linna ajaloolise esteetika ning värske, unikaalse ja õdusa atmosfääri vahel. Tulenevalt uutest ruumipiirangutest töötasin välja eritellimusel valminud pingilahenduse, mis kulgeb piki hoone fassaadi, maksimeerides istekohtade arvu ja luues kutsuva ning stiilse terviku.",
+        "alt": "Chez Andre Välikohvik"
       }
     },
     "services": {
@@ -84,6 +90,11 @@
       }
     },
     "portfolio": {
+    "andreexterior": {
+        "text": "Chez Andre Välikohvik",
+        "subtext": "Välisvisualisatsioon",
+        "alt": "Chez Andre Välikohvik"
+      },
       "lai56_6": {
         "text": "Lai tänava korter 6",
         "subtext": "Interjööri visualiseerimine",
